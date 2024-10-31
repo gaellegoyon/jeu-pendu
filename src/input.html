@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Saisie - Jeu du Pendu</title>
+    <link rel="stylesheet" href="styles/input-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h2>Saisie des lettres</h2>
+        <div id="input-container">
+            <input type="text" 
+                   id="letter-input" 
+                   maxlength="1" 
+                   autocomplete="off"
+                   placeholder="A">
+            <button onclick="sendLetter()">Envoyer</button>
+        </div>
+    </div>
+    <script src="scripts/input-renderer.js"></script>
+</body>
+</html>
